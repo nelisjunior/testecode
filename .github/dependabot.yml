@@ -45,16 +45,5 @@ atualizações:
       # Usar horário padrão do Brasil (UTC -03:00)
       timezone: "America/Bahia"
       
-    # Include a list of updated dependencies
-    # with a prefix determined by the dependency group
-    commit-message:
-      prefix: "pip prod"
-      prefix-development: "pip dev"
-      include: "scope"
-    - package-ecosystem: "pip"
-      directory: "/"
-      schedule:
-        interval: "daily"
-      time: "02:10"
-      # Usar horário padrão do Brasil (UTC -03:00)
-      timezone: "America/Bahia"
+
+      
