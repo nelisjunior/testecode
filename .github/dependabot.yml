@@ -41,7 +41,7 @@ atualizações:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "02:13"
+      time: "04:00"
       # Usar horário padrão do Brasil (UTC -03:00)
       timezone: "America/Bahia"
       
