@@ -5,8 +5,8 @@
 
 # Configuração básica para três gerenciadores de pacotes
 
-versão: 2
-atualizações:
+version: 2
+updates:
 
   # Manter dependências para o GitHub Actions
   - package-ecosystem: "github-actions"
