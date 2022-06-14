@@ -13,35 +13,25 @@ atualizações:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "06:00"
+      time: "03:00"
       # Usar horário padrão do Brasil (UTC -03:00)
       timezone: "America/Bahia"
-      
 
   # Manter dependências para npm
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
-      time: "06:00"
+      time: "04:00"
       # Usar horário padrão do Brasil (UTC -03:00)
       timezone: "America/Bahia"
-    ignore:
-      - dependency-name: "express"
-        # For Express, ignore all updates for version 4 and 5
-        versions: ["4.x", "5.x"]
-        # For Lodash, ignore all updates
-      - dependency-name: "lodash"
-        # For AWS SDK, ignore all patch updates
-      - dependency-name: "aws-sdk"
-        update-types: ["version-update:semver-patch"]
 
   # Manter dependências para Composer
   - package-ecosystem: "composer"
     directory: "/"
     schedule:
       interval: "daily"
-      time: "04:00"
+      time: "05:00"
       # Usar horário padrão do Brasil (UTC -03:00)
       timezone: "America/Bahia"
       
